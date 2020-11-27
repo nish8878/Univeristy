@@ -1,0 +1,19 @@
+header{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav{
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    background-image: url(images/3.jpg);
+     
+}
+ footer{
+     position: fixed;
+    color: grey;
+     
+ }
+ body{
+     background-color: #10C3FA;
+ }
