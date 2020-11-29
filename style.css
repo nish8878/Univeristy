@@ -17,3 +17,21 @@ nav{
  body{
      background-color: #10C3FA;
  }
+ .switch { 
+    cursor: pointer; 
+    border: 1px solid #555; 
+    border-radius: 10px; 
+    width: 20px; 
+    text-align: center; 
+    padding: 5px; 
+    margin-left: 8px; 
+} 
+.dark{ 
+    background-color: #222; 
+    color: #e6e6e6; 
+}
+.dm { 
+    float:right; 
+    margin:1rem;
+    padding:0.5rem;
+} 
