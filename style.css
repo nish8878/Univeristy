@@ -17,7 +17,7 @@ section{
      
  }
  body{
-     background-color: #10C3FA;
+     background-color: #26b9c8;
  }
  .switch { 
     cursor: pointer; 
@@ -29,7 +29,7 @@ section{
     margin-left: 8px; 
 } 
 .dark{ 
-    background-color: #222; 
+    background-color: #0457A0; 
     color: #e6e6e6; 
 }
 .dm { 
@@ -79,4 +79,26 @@ hr.style18:before {
  .carousel {
     max-width: 100%;
   height: auto;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  nav
+  {
+      background-color: #fff56c;
+      color: brown;
+  }
+  a{
+      color: chocolate;
+  }
+  button{
+      background-color: chocolate;
+  }
+.card{
+ background-color: chocolate;
+  }
+  h3{
+      background-color: #fff56c ;
   }
