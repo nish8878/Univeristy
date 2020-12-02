@@ -1,4 +1,10 @@
- 
+.top
+{
+    padding-top: 1%;
+    padding-bottom: 0.75%;
+    box-shadow: 10px 10px 5px #faea06;
+     
+} 
 header{
     font-family: 'Roboto', sans-serif;
     
@@ -100,7 +106,31 @@ hr.style18:before {
   }
 .card{
  background-color: chocolate;
+ padding-top: 20%;
+ box-shadow: 10px 10px 5px #f57701;
+ padding: 3%;
   }
   h3{
       background-color: #fff56c ;
+  }
+  .card1{
+      padding-top: 20%;
+  }
+  .sp{
+    padding-top: 1%;
+    padding-bottom: 0.75%;
+    background-color: yellowgreen;
+    box-shadow: 10px 10px 5px #faea06;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .navbar-toggler {
+    border-color: rgb(255,102,203);
   }
