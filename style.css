@@ -2,13 +2,8 @@
 {
     padding-top: 1%;
     padding-bottom: 0.75%;
-    box-shadow: 10px 10px 5px #faea06;
      
 } 
-header{
-    font-family: 'Roboto', sans-serif;
-    
-}
 section{
     font-family: 'Roboto', sans-serif;
 
@@ -16,20 +11,12 @@ section{
 #google_translate_element{
     float:right;
 }
- 
-     
-
- footer{
-     position: fixed;
-    color: grey;
-     
- }
  body{
-     background-color: #26b9c8;
+   
  }
  .switch { 
     cursor: pointer; 
-    border: 1px solid #555; 
+    border: 3px solid #555; 
     border-radius: 10px; 
     width: 20px; 
     text-align: center; 
@@ -37,7 +24,7 @@ section{
     margin-left: 8px; 
 } 
 .dark{ 
-    background-color: #0457A0; 
+    background-color:black; 
     color: #e6e6e6; 
 }
 .dm { 
@@ -86,32 +73,22 @@ hr.style18:before {
  }
  .carousel {
     max-width: 100%;
-  height: auto;
+  height: 500px;
   }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
   }
-  nav
-  {
-      background-color: #fff56c;
-      color: brown;
-  }
-  a{
-      color: chocolate;
-  }
-  button{
-      background-color: chocolate;
-  }
+ 
 .card{
- background-color: chocolate;
+  background-color: inherit;
  padding-top: 20%;
- box-shadow: 10px 10px 5px #f57701;
+ box-shadow: 10px 10px 5px #4169e1;
  padding: 3%;
   }
   h3{
-      background-color: #fff56c ;
+      background-color: #4169e1 ;
   }
   .card1{
       padding-top: 20%;
@@ -119,18 +96,26 @@ hr.style18:before {
   .sp{
     padding-top: 1%;
     padding-bottom: 0.75%;
-    background-color: yellowgreen;
     box-shadow: 10px 10px 5px #faea06;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
   }
   .navbar-toggler {
     border-color: rgb(255,102,203);
+  }
+  nav
+  {
+    position: absolute !important;
+    background-image: url("images/nav.jpg");
+    padding-left: 8% ;
+    padding-right: 5% ;
+    padding-top: 3.5rem;;
+    color: black;
+  }
+  ul li{
+    text-align: center;
+    padding-left:5rem;
+    font-size: 1.2rem;
+  }
+  a{
+    color:black;
+    margin:0 1rem;
   }
