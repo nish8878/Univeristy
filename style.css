@@ -89,6 +89,7 @@ hr.style18:before {
  margin:2rem auto;
  max-width:100%;
  font-size:1.3rem;
+ height:90%;
   }
   h3{
       background-color: #4169e1 ;
@@ -123,3 +124,17 @@ hr.style18:before {
     color:black;
     margin:0 1rem;
   }
+  .bill{
+    margin:1rem;
+  }
+  #hostel,#mess{
+margin:1rem;
+  }
+  .as{
+    display:block;
+    height:150px;
+    width:30%;
+  }
+.co{
+  margin:0 auto;
+}
